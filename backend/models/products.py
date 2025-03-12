@@ -1,4 +1,4 @@
-from backend.config.config import db
+from config.config import db
 
 class Product(db.Model):
 

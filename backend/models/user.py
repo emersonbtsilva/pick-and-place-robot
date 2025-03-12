@@ -1,4 +1,4 @@
-from backend.config.config import db
+from config.config import db
 import secrets
 import string
 

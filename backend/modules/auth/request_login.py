@@ -1,8 +1,8 @@
 from flask import Blueprint, request, jsonify
-from backend.models import User
+from models.user import User
 from sqlalchemy.exc import IntegrityError
-from backend.config.config import db
-from backend.utils.exceptions import UserCreationException 
+from config.config import db
+from utils.exceptions import UserCreationException 
 
 user_bp = Blueprint('users', __name__)
 

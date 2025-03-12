@@ -1,5 +1,5 @@
-from backend.config.config import app, db
-from backend.modules.auth.request_login import user_bp
+from config.config import app, db
+from modules.auth.request_login import user_bp
 
 
 app.register_blueprint(user_bp, url_prefix='/users')
